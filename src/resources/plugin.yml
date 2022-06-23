@@ -1,0 +1,4 @@
+api-version: 1.18
+version: 1
+name: sennheisers-plugin
+main: za.bonk.mc.Plugin
