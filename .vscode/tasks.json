@@ -6,7 +6,7 @@
         {
             "label": "build and load",
             "type": "shell",
-            "command": "mvn compile package && scp target/mc-1.0.jar oracle:~/minecraft/plugins/",
+            "command": "mvn compile package && scp -i ~/.ssh/oracle.key target/mc-1.0.jar opc@129.151.188.243:~/minecraft/plugins/",
             "group": "build"
         }
     ]
